@@ -316,26 +316,26 @@ div a:hover {
 
 /* <!----------------------------------------// AYUDA //----------------------------------------> */
 
-.ayuda{
-    display: flex;
+.ayuda{    
     background-color: rgba(0, 233, 250, 0.205);
     margin-top: 2%;
-
+    
+    
+    
 }
 
 .h1__ayuda {
-    position: relative;
+    margin-left: 10%;
     color: aliceblue;
-    left: 10%;
+    
 
 }
 
-.h2__ayuda {
-    position: relative;
-    margin-top: 3%;
-    color: aliceblue;
-    right: 5%;
+.h2__ayuda {  
+    color: aliceblue;    
     font-size: medium;
+    margin-top: 1%;
+    margin-left: 10%;
 }
 
 .div {
@@ -343,7 +343,7 @@ div a:hover {
 }
 
 .div__input{
-    width: 77%;
+    width: 75%;
 }
 
 .form {
