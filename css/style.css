@@ -56,16 +56,16 @@ body {
 .nav__link {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 20px;
-
-
+    padding: 20px;    
+    transition-duration: 1s;
 }
 
 div a:hover {
-    background-color: rgba(255, 0, 0, 0.541);
+    background-color: rgba(255, 0, 0, 0.541);    
     border: 3px 3px 3px 3px solid rgb(255, 0, 0);
     color: white;
     border-radius: 10%;
+    
 
 }
 
@@ -120,8 +120,7 @@ div a:hover {
 
 
 .main {
-    position: fixed;
-
+    position: fixed;    
     top: 55%;
     left: 46%;
 
@@ -130,6 +129,7 @@ div a:hover {
 
 .home__descarga a {
     text-decoration: none;
+    transition-duration: 1s;
     font-size: x-large;
     color: black;
     background-color: rgb(255, 255, 255);
@@ -167,25 +167,42 @@ div a:hover {
 
 /* <!----------------------------------------// TIENDA //----------------------------------------> */
 
-.section__tienda {
+.section__tienda:hover{
     display: grid;
     justify-items: center;
     gap: 30%;
+    transition-duration: 5s;
+    
+    
 }
 
 
+.section__tienda p{    
+    background-color: rgb(70, 11, 158);
+    width: 100%;
+    
+    text-align: center;
+    transition-duration: 5s;
+}
 
 .section__busqueda {
-
-    padding-top: 5%;
-
-
+    
+    margin-top: 5%;    
+    transition-duration: 5s;
+    
+    
+}
+.imput__tienda--barra{
+    width: 50%;
+    
 }
 
-.tienda__items {
+.tienda__items {    
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 1%;
+    
+    
 }
 
 /* <!----------------------------------------// COMUNIDAD //----------------------------------------> */
@@ -317,8 +334,8 @@ div a:hover {
 /* <!----------------------------------------// AYUDA //----------------------------------------> */
 
 .ayuda{    
-    background-color: rgba(0, 233, 250, 0.205);
-    margin-top: 2%;
+    background-color: rgba(0, 242, 250, 0.205);
+    
     
     
     
@@ -326,7 +343,7 @@ div a:hover {
 
 .h1__ayuda {
     margin-left: 10%;
-    color: aliceblue;
+    color: rgb(240, 248, 255);
     
 
 }
@@ -340,16 +357,20 @@ div a:hover {
 
 .div {
     text-align: center;
+    
 }
 
-.div__input{
+.div__input{   
+    
     width: 75%;
+    
 }
 
-.form {
+.form{
+    
     text-align: center;
     margin-top: 1%;
-    color: aliceblue;
+    color: rgb(235, 243, 237);
 }
 
 /* <!----------------------------------------// INICIAR SESION //----------------------------------------> */
