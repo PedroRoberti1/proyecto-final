@@ -179,8 +179,7 @@ div a:hover {
 
 .section__tienda p{    
     background-color: rgb(70, 11, 158);
-    width: 100%;
-    
+    width: 100%;    
     text-align: center;
     transition-duration: 5s;
 }
